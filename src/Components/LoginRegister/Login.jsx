@@ -29,7 +29,7 @@ const Login = () => {
 
   const handleFormSubmit = async(e) => {
     e.preventDefault();
-
+    navigate('/NewMatches');
     try {
     
           const response = await axios.post('https://www.helpingbrother.in/login',formData)
