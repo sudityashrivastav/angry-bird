@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --lato: 'Lato', sans-serif;
+    --white: #F9F9F9;
+       --grey: #6B7280;
+    --dark-grey: #AAAAAA;
+    --dark: #342E37;
+    --yellow: #FACC15;
+    --light-yellow: #FFF2C6;
+    --orange: #FD7238;
+    --light-orange: #FFE0D3;
+    --Lightblue : #040382;
+    --darkblue: #040382;
+    --red : #d80027;
+  }
+
+
+  .navbar-light .navbar-nav .nav-link{
+    color:#b7a0a0;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0px 15px;
+    position: relative;
+  }
+
+  .navbar-wrapper{
+    /* background-color: #00123C !important; */
+    background-color: white !important;
+  }
+
+  .AdvertiseJob{
+    background-color: var(--grey) !important;
+    color: var(--darkblue) !important;
+    margin-right: 15px;
+  }
+
+  .ProfileButton{
+    background-color: var(--yellow) !important;
+    color: black !important;
+    
+  }
+.EmergencyButton{
+  background-color: #FF0000;
+  color: white;
+}
+
+  .navbar-light .navbar-nav .nav-link::after{
+	content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+transition: 0.5s;}
+
+.commonLinkClasses{
+  text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after{
+	width: 100%;
+  background: #FACC15;
+
+}
+a#navbarDropdown {
+  color: white;
+  text-decoration: none;
+}
+
+li.nav-item.dropdown{
+  font-size: 13px;
+  margin: 0px 8px;
+}
+
+a.dropdown-item {
+  font-size: 13px;
+}
+
+a.dropdown-item:hover{
+  color: orangered;
+  transition: 0.5s ease;
+}
+
+    @media only screen and (min-width: 300px) and (max-width: 978px) {
+        .navbar-light .navbar-nav .nav-link {
+            padding: 9px 15px
+        }
+        .navbar-light .navbar-nav .nav-link:hover::after{
+            width: 0%;
+  
+        }
+        .wrapper-Complaint{
+          width: 100% !important;
+        }
+.div#navbarScroll{
+  text-align: left;
+}
+li.nav-item.dropdown {
+  margin: 10px 13px;
+}
+    
+        .ProfileButton{
+            text-align: left;
+            margin-top: 10px;
+            background-color: #FACC15 !important;
+            color: black !important;
+            font-weight: 500;
+        }
+        .EmergencyButton{
+            text-align: left;
+            margin-top: 10px;
+            background-color: #FF0000;
+            color: white;
+          
+            font-weight: 500;
+        }
+    }
+
+    .navbar-light .navbar-toggler {
+      color: black
+      /* border-color: rgb(255 253 253 / 10%); */
+  }
+
+  .navbar-toggler:focus{
+    box-shadow: none;
+
+  }
+
+
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+  }
+  .navbar-light .navbar-toggler-icon{
+    background-image : none !important;
+  }
+  .modal-footer {
+    justify-content: flex-start;
+  }
+
+  .LoginButton{
+background-color: var(--yellow) !important;
+font-size: 13px;
+font-weight: 700;
+padding: 5px 35px;
+  }
+
+  .modal-title {
+    color: #181711;}
+
+
+
+   

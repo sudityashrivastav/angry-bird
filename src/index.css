@@ -1,0 +1,607 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fw-lg{
+  font-weight: 600;
+}
+.Secondary {
+  background-color: orangered;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+
+.text-shdaow-color {
+  background-color: #ffffff4d;
+  text-shadow: 0px 0px 50px #fff;
+}
+
+.Purpble-odds{
+  background-color: #9868BE ;
+  border-radius: 13px 5px 11px 0px;
+}
+
+.LightBlue-box {
+  background-color: #5C80CE;
+  border-radius: 13px 5px 11px 0px;
+
+}
+.broder-radius-14px {
+  border-radius: 14px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Team-bg-color {
+  background-color: #ebebeb;
+
+  font-weight: 800 !important;
+  padding: 0px 13px;
+  border-radius: 7px;
+  font-size: 14px;
+}
+
+
+.pl-pr {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.wrapper-Home-pageMatches h5.card-title {
+    font-size: 13px;
+}
+
+.wrapper-Home-pageMatches  .card{
+    padding: 7px;
+}
+
+@media (min-width:768px) and (max-width:1600px) {
+    #carouselExampleDark{
+        height: 357px !important;
+    }
+}
+
+body{
+    background-color: #d3cbcb;
+}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (change as needed) */
+    height: 0;
+    overflow: hidden;
+}
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.wrapper-oods {
+    position: absolute;
+    top: 19%;
+    right: 30px;
+}
+.wrapper-video-player {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.wrapper-sticky li {
+    /* color: #00daff; */
+    color: white;
+    font-weight: 900;
+}
+
+.wrapper-sticky .badge {
+    display: inline-block;
+    padding: 5px 19px;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 2;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+
+.svg {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .hex {
+    fill: rgba(255,255,255,.9);
+    animation: fadein 3.3s infinite;
+    opacity: 0;
+    transform-origin: 50% 50%;
+  }
+  
+  .hex:nth-child(2) {
+    animation-delay: .2s;
+  }
+  
+  .hex:nth-child(3) {
+    animation-delay: .4s;
+  }
+  
+  .hex:nth-child(4) {
+    animation-delay: .6s;
+  }
+  
+  .hex:nth-child(5) {
+    animation-delay: .8s;
+  }
+  
+  .hex:nth-child(6) {
+    animation-delay: 1.0s;
+  }
+  
+  .hex:nth-child(7) {
+    animation-delay: 1.2s;
+  }
+  
+  @keyframes fadein {
+    0%, 100% {
+      transform: scale(0.001,0.001);
+      opacity: 0;
+    }
+    
+    33%, 66% {
+      transform: scale(.9,.9);
+      opacity: 1;
+    }
+  }
+  
+  .after {
+      content: "";
+      color: #DB5A9B;
+      background: #fff;
+      position: absolute;
+      border-radius: 5px;
+    }
+  
+    .SectionLoader{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        background-color: #DB5A9B;
+    }
+    .wrapper-Binds-oddsbutton {
+    position: absolute;
+    top: 0;
+    right: 6%;
+    background-color: #d3cbcb;
+    padding: 5px;
+}
+.wrapper-loader{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    transform: translate(-50% -50%);
+}  
+.fancy-arrydata{
+    position: absolute;
+    top: 15%;
+    left: 30px; 
+}
+.fancy-arrydata button.btn {
+    color: #211618;
+    font-weight: 900;
+    padding: 3px 8px;
+    border-radius: 0px;
+    
+}
+.fancy-arrydata p {
+text-shadow: #d7c5c5 2px 2px;
+}
+.wrapper-oods p{ text-shadow: rgb(235 211 225) 2px 2px;
+    text-shadow: rgb(235 211 225) 2px 2px;
+    color: black;
+    font-weight: 700;
+}
+.wrapper-oods , .fancy-arrydata .btn{
+    padding: 0px 7px;
+    font-size: 19px;
+}
+
+.wrapper-oods tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border:none;
+    border-width: 0;
+    font-size: 12px;
+    font-weight: 900;
+}
+.wrapper-oods  .table>:not(caption)>*>* {
+    padding: 2px 5px !important;
+
+}
+
+.wrpper-odds-buttons {
+    text-align: end;
+    width: 100%;
+}
+.wrapper-oods .btn {
+    width: 39px;
+    height: 24px;
+    padding: 0px 7px;
+    font-size: 11px;
+    font-weight: 900 !important;
+    border: 1px solid grey;
+    border-radius: 0px;
+}
+@media (min-width: 200px) and (max-width:588px){
+    .fancy-arrydata {
+        position: absolute;
+        top: 14% !important;
+        left: 30px !important;
+    }
+    .fancy-arrydata .btn {
+        color: #211618 !important;
+        font-weight: 900 !important;
+        padding: 3px 8px !important;
+        border-radius: 0px;
+        font-size: 8px !important;
+    }
+    .fancy-arrydata  p{
+        font-size: 11px;
+    }
+
+   .wrapper-oods p{ 
+    text-shadow: rgb(235 211 225) 2px 2px;
+    font-size: 11px !important;
+    color: black;
+    font-weight: 700;
+}
+.wrapper-oods {
+    position: absolute;
+    top: 0% !important;
+    right: 23px;
+}
+.wrapper-oods  .btn {
+    padding: 0px 7px;
+    font-size: 11px;
+    font-weight: 900 !important;
+}
+.Session-wraper .btn {
+  font-size: 12px !important;
+}
+.Team-bg-color {
+  font-size: 9px !important;
+}
+
+}
+
+
+
+
+
+tbody {
+    border: 1px solid grey;
+}
+/* .TeamBwrapper {
+    position: absolute;
+    right: 2px;  
+} */
+/* .wrapper-odds-button.Draw-wrapper.d-flex.align-items-center {
+    position: absolute;
+    right: 0;
+} */
+.wrapper-Binds-oddsbutton .bg-primary {
+    background-color: #c08fb3 !important;
+    color: #212529 !important;
+}
+.wrapper-Binds-oddsbutton {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: #d3cbcb;
+    padding: 5px;
+}
+.wrapper-Binds-oddsbutton .btn{
+    width: 65px;
+    height: 43px;
+    margin: 5px;
+    font-size: 11px;
+    font-weight: 900;
+}
+.Session-wraper {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+
+
+
+.wrapper-Binds-oddsbutton {
+    background-color: transparent !important;
+}
+
+
+
+/* loader css starting here  */
+
+:root {
+	--hue: 223;
+	--bg: hsl(var(--hue),90%,95%);
+	--fg: hsl(var(--hue),90%,5%);
+	--trans-dur: 0.3s;
+	
+}
+.wrapper-loader-bgColor {
+    width: 100%;
+    height: 100vh;
+    background-color: #212529;
+}
+.Loading-matches {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+   
+}
+.Loading-matches h1{
+ color: #CEDCFC;
+}
+.Loading-matches main {
+	padding: 1.5em 0;
+}
+.Loading-matches .ip {
+	width: 16em;
+	height: 8em;
+}
+.Loading-matches .ip__track {
+	stroke: hsl(var(--hue),90%,90%);
+	transition: stroke var(--trans-dur);
+}
+.ip__worm1,
+.ip__worm2 {
+	animation: worm1 2s linear infinite;
+}
+.ip__worm2 {
+	animation-name: worm2;
+}
+
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: hsl(var(--hue),90%,5%);
+		--fg: hsl(var(--hue),90%,95%);
+	}
+	.ip__track {
+		stroke: hsl(var(--hue),90%,15%);
+	}
+}
+
+/* Animation */
+@keyframes worm1 {
+	from {
+		stroke-dashoffset: 0;
+	}
+	50% {
+		animation-timing-function: steps(1);
+		stroke-dashoffset: -358;
+	}
+	50.01% {
+		animation-timing-function: linear;
+		stroke-dashoffset: 358;
+	}
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+@keyframes worm2 {
+	from {
+		stroke-dashoffset: 358;
+	}
+	50% {
+		stroke-dashoffset: 0;
+	}
+	to {
+		stroke-dashoffset: -358;
+	}
+}
+
+/* .Loading-matches{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: black;
+ 
+  animation: animateBackgroundColor 10s linear infinite;
+}
+
+@keyframes animateBackgroundColor{
+  0%{
+    filter: hue-rotate(0deg);
+  }
+  100%{
+    filter: hue-rotate(360deg);
+  }
+}
+
+.loading {
+  position: relative;
+  width: 250px;
+  height: 250px;
+}
+
+.loading .blocks {
+  position: absolute;
+  width: 8px;
+  height: 25px;
+  background: #050c09;
+  border-radius: 8px;
+  left: 50%;
+  transform: rotate(calc(18deg * var(--i)));
+  transform-origin: 0 125px;
+  animation: animate 1.9s ease-in-out infinite;
+  animation-delay: calc(0.05s * var(--i));
+}
+
+@keyframes animate {
+  0%,50%{
+    background: #050c09;
+    box-shadow: none;
+  }
+  50.1%,100%{
+    background: #0f0;
+    box-shadow: 0 0 5px #0f0,
+                0 0 15px #0f0,
+                0 0 30px #0f0,
+                0 0 65px #0f0,
+                0 0 90px #0f0;
+  }
+}
+
+.Loading-matches h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  letter-spacing: 2px;
+  animation: animateText 2s ease-in-out infinite;
+  animation-delay: -1s;
+}
+
+@keyframes animateText{
+  0%,50%{
+    color: #050c09;
+    text-shadow: none;
+  }
+  50.1%,100%{
+    color: #0f0;
+    text-shadow: 0 0 5px #0f0,
+                0 0 15px #0f0,
+                0 0 30px #0f0,
+                0 0 65px #0f0,
+                0 0 90px #0f0;
+  }
+} */
+
+
+
+
+@media (min-width:200px) and (max-width:468px) {
+    .wrapper-Binds-oddsbutton .btn{
+         padding: 4px 4px;
+         font-size: 8px;
+         font-weight: 900;
+       
+     }
+   .wrapper-Binds-oddsbutton  p {
+         font-size: 10px;
+         color: black !important;
+         font-weight: 900;
+         padding: 1px 2px;
+         border-radius: 2px;
+     }
+     .wrapper-Binds-oddsbutton {
+         position: absolute !important;
+         top: 0% !important;
+         right: 0% !important;
+         /* background-color: #d3cbcb; */
+         padding: 5px;
+     }
+     .wrapper-Binds-oddsbutton .btn{
+         width: 45px;
+     }
+   
+     .wrapper-Binds-oddsbutton {
+         background-color: transparent !important;
+     }
+     /* .wrapper-Adduser-section {
+      padding: 0px !important;
+     } */
+    .wrapper-table-Userlist {
+      padding: 0px !important;
+    } 
+ }
+
+ .Session-wraper {
+  position: absolute;
+  font-weight: 800;
+  top: 3%;
+  left: 1%;
+  
+}
+
+
+.UserRegister-Wraper {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 46px;
+}
+
+.Wrapper-Edit-UserForm {
+  width: 100%;
+  height: 100%;
+  padding: 45px;
+}
+
+.Wrapper-Edit-UserForm input{
+  border: 1px solid #aca1a1;
+}
+
+.pagination  li.page-item {
+  margin: 0px 5px;
+}
+
+
+@media (min-width:200px) and (max-width:568px) {
+  .Session-wraper  .btn {
+    font-size: 9px !important;
+    padding: 0px 7px;
+    border-radius: 0px!important;
+
+  }
+  .text-shdaow-color {
+    font-size: 10px !important;
+  }
+  .wrapper-Binds-oddsbutton .btn {
+    width: 48px !important;
+    height: 28px;
+    margin: 0px !important;
+    padding: 0px !important;
+    border-radius:  0px !important;
+  }
+  .wrapper-Binds-oddsbutton  p {
+    font-size: 7px !important;
+  }
+}
+p.fixshadow.text-2xl.shadow-md.rounded-sm.px-2.mx-auto.inline.font-extrabold {
+    font-size: 12px;
+    padding: 0px !important;
+    margin: 0px;
+    /* color: white; */
+    background-color: #ffffff4d;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    color: white;
+    /* border: 1px solid black; */
+
+}
+div:where(.swal2-container){
+  z-index: 5555 !important;
+}
+
+
+.fixshadow {
+  background-color: rgba(255, 255, 255, 0.3);
+  text-shadow: 0px 0px 50px #fff;
+}
+
+.thisissk{
+  z-index: 99999999999;
+}
