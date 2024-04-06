@@ -22,7 +22,7 @@ const Previewmatch = () => {
             >
               <iframe
                 title="Video Player"
-                src={"videoUrl"}
+                src={videoUrl}
                 width="100%"
                 height="450"
                 allowFullScreen
