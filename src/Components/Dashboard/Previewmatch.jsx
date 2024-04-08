@@ -4,7 +4,7 @@ import LiveOddsScore from "../NewDeveloperCode/components/LiveStream";
 
 const Previewmatch = () => {
   const EventId = localStorage.getItem("event_id");
-  const videoUrl = `https://1xbat.biz/livetv.php?MatchId=${EventId}`;
+  const videoUrl = `https://tele.bazigarprediction.website/tv-cricket/index.php?match_id=${EventId}`;
 
   return (
     <>
