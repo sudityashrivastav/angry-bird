@@ -70,12 +70,12 @@ const Bookmaker = ({ comm }) => {
             >
               <TeamComponent teamName={bookmakerScore[0] || ""} />
               <div>
-                <span className="text-xl rounded-full items-center flex justify-center h-[50px] w-[50px] bg-[#9868bf] mx-3">
+                <span className="text-sm lg:text-xl rounded-full items-center flex justify-center h-[40px] w-[40px] bg-[#9868bf] mx-1">
                   {bookmakerScore[5] || ""}{" "}
                 </span>
               </div>
               <div>
-                <span className=" text-xl rounded-full items-center flex justify-center h-[50px] w-[50px] bg-[#5c80cd]">
+                <span className=" text-sm lg:text-xl rounded-full items-center flex justify-center h-[40px] w-[40px] bg-[#5c80cd]">
                   {bookmakerScore[7] || ""}
                 </span>
               </div>
@@ -94,12 +94,12 @@ const Bookmaker = ({ comm }) => {
             >
               <TeamComponent teamName={bookmakerScore[13] || ""} />
               <div>
-                <span className="text-xl rounded-full items-center flex justify-center h-[50px] w-[50px] bg-[#9868bf] mx-2">
+                <span className="text-sm lg:text-xl rounded-full items-center flex justify-center h-[40px] w-[40px] bg-[#9868bf] mx-1">
                   {bookmakerScore[18] || ""}{" "}
                 </span>
               </div>
               <div>
-                <span className=" text-xl rounded-full items-center flex justify-center h-[50px] w-[50px] bg-[#5c80cd]">
+                <span className=" text-sm lg:text-xl rounded-full items-center flex justify-center h-[40px] w-[40px] bg-[#5c80cd]">
                   {bookmakerScore[20] || ""}
                 </span>
               </div>
@@ -118,12 +118,12 @@ const Bookmaker = ({ comm }) => {
             >
               <TeamComponent teamName={bookmakerScore[26] || ""} />
               <div>
-                <span className="text-xl rounded-full items-center flex justify-center h-[50px] w-[50px] bg-[#9868bf] mx-3">
+                <span className="text-sm lg:text-xl rounded-full items-center flex justify-center h-[40px] w-[40px] bg-[#9868bf] mx-1">
                   {bookmakerScore[31] || ""}{" "}
                 </span>
               </div>
               <div>
-                <span className=" text-xl rounded-full items-center flex justify-center h-[50px] w-[50px] bg-[#5c80cd]">
+                <span className=" text-sm lg:text-xl rounded-full items-center flex justify-center h-[40px] w-[40px] bg-[#5c80cd]">
                   {bookmakerScore[33] || ""}
                 </span>
               </div>

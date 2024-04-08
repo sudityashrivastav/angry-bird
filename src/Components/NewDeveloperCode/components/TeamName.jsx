@@ -22,7 +22,7 @@ function TeamComponent({ teamName }) {
     const shortenedName = shortenTeamName(teamName);
 
     return (
-        <p className="fixshadow text-2xl shadow-md rounded-sm px-2 mr-3">
+        <p className="fixshadow text-sm lg:text-xl shadow-md rounded-sm px-2 mr-3">
             {shortenedName}
         </p>
     );

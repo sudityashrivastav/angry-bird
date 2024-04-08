@@ -198,14 +198,14 @@ const Test = ({ eventId, comm }) => {
               key={index}
               className={"gap-3 items-center justify-start flex"}
             >
-              <div className="flex flex-col bg-[#5c80cd] py-2 items-center justify-center rounded-tl-2xl rounded-br-2xl w-16 ">
-                <span className="text-xl">{i.maxStack}</span>
-                <span className="text-lg">{i.maxAmount}</span>
+              <div className="flex flex-col bg-[#5c80cd] py-2 items-center justify-center rounded-tl-2xl rounded-br-2xl w-12 lg:w-16 ">
+                <span className="text-mg">{i.maxStack}</span>
+                <span className="text-md">{i.maxAmount}</span>
               </div>
 
-              <div className="flex flex-col bg-[#9868bf] items-center py-2 justify-center rounded-tl-2xl rounded-br-2xl w-16">
-                <span className="text-xl">{i.minAmount}</span>
-                <span className="text-lg">{i.displayOrder}</span>
+              <div className="flex flex-col bg-[#9868bf] items-center py-2 justify-center rounded-tl-2xl rounded-br-2xl w-12 lg:w-16 ">
+                <span className="text-md">{i.minAmount}</span>
+                <span className="text-md">{i.displayOrder}</span>
               </div>
               <FancyName name={i.name} />
             </div>

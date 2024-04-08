@@ -40,7 +40,7 @@ const OddsScoreComponent = ({ teamNames, comm }) => {
   }, []);
 
   return (
-    <div className="flex fixed top-0 right-0 items-end flex-col gap-1 p-10 text-black font-extrabold">
+    <div className="flex fixed top-0 right-0 items-end flex-col gap-1 p-2 text-black font-extrabold">
       {OddsScore?.map((i, key) => (
         <div key={key} className="flex gap-1 items-center justify-end px-4">
           {key === 2 ? (
@@ -48,17 +48,17 @@ const OddsScoreComponent = ({ teamNames, comm }) => {
               DRAW
             </p>
           ) : (
-            <TeamComponent teamName={teamNames[key] || "fgfg"} />
+            <TeamComponent teamName={teamNames[key] || ""} />
           )}
 
-          <div className="flex flex-col bg-[#9868bf] items-center py-2 justify-center rounded-tl-2xl rounded-br-2xl w-24">
-            <span className="text-xl ">{i?.price?.back[0]?.price} </span>
-            <span className=" text-lg">${i?.price?.back[0]?.size}</span>
+          <div className="flex flex-col bg-[#9868bf] items-center py-2 justify-center rounded-tl-2xl rounded-br-2xl w-12 lg:w-24">
+            <span className="text-md">{i?.price?.back[0]?.price} </span>
+            <span className=" text-xs">${i?.price?.back[0]?.size}</span>
           </div>
 
-          <div className="flex flex-col bg-[#5c80cd] py-2 items-center justify-center rounded-tl-2xl rounded-br-2xl w-24">
-            <span className=" text-xl">{i?.price?.lay[0]?.price}</span>
-            <span className=" text-lg">${i?.price?.lay[0]?.size}</span>
+          <div className="flex flex-col bg-[#5c80cd] py-2 items-center justify-center rounded-tl-2xl rounded-br-2xl w-12 lg:w-24">
+            <span className=" text-md">{i?.price?.lay[0]?.price}</span>
+            <span className=" text-xs">${i?.price?.lay[0]?.size}</span>
           </div>
         </div>
       ))}
